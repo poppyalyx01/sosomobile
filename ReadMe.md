@@ -9,7 +9,7 @@ SOSOMOBILE
 > 中文姓名：李世福
 
 # 详情
-我是用 sqlite 数据库，数据库的文件存在 src/main/resources/database.db。\
+我是用 sqlite 数据库，数据库的文件存在 src/main/resources/database.db\
 下载 jar 文件 [Download Jar](https://github.com/poppyalyx01/sosomobile/releases)
 
 To build this project use
@@ -30,4 +30,4 @@ To run this project from within Maven use
 |超人套餐| 13975784444 | root |
 |话唠套餐| 13942542542 | root |
 
-
+![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
