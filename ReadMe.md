@@ -30,4 +30,6 @@ To run this project from within Maven use
 |超人套餐| 13975784444 | root |
 |话唠套餐| 13942542542 | root |
 
+#运行结果的截图
+
 ![alt text](https://github.com/poppyalyx01/sosomobile/blob/master/img01.jpg?raw=true)
