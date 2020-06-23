@@ -18,7 +18,7 @@ To build this project use
 
 To run this project from within Maven use
     
-    mvn camel:java
+    mvn camel:run
 
 # 存在帐户
 
