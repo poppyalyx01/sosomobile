@@ -16,37 +16,37 @@ public class TalkPackage extends ServicePackage implements CallService, SendServ
         this.price=58;
     }
     /**
-     * @return
+     * @return getTalkTime
      */
     public int getTalkTime() {
         return talkTime;
     }
     /**
-     * @return
+     * @return setTalkTime
      */
     public void setTalkTime(int talkTime) {
         this.talkTime = talkTime;
     }
     /**
-     * @return
+     * @return getSmsCount
      */
     public int getSmsCount() {
         return smsCount;
     }
     /**
-     * @return
+     * @return setSmsCount
      */
     public void setSmsCount(int smsCount) {
         this.smsCount = smsCount;
     }
     /**
-     * @return
+     * @return getPrice
      */
     public double getPrice() {
         return price;
     }
     /**
-     * @return
+     * @return setPrice
      */
     public void setPrice(double price) {
         this.price = price;

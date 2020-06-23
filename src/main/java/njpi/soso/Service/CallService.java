@@ -6,7 +6,6 @@ public interface CallService {
     /**
      * @param minCount
      * @param card
-     * @return
      * @throws Exception
      */
     public	int call(int minCount,MobileCard card) throws Exception;

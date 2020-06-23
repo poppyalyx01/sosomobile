@@ -33,7 +33,6 @@ public class NetPackage extends ServicePackage implements NetService {
     }
     /**
      * @throws Exception
-     *
      */
     public int netPlay(int flow, MobileCard card) throws Exception {
         int temp = flow;

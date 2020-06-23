@@ -18,7 +18,6 @@ public class MobileCard {
      * @param userName
      * @param passWord
      * @param serPackage
-     * @param consumAmout
      */
     public MobileCard(String cardNumber, String userName, String passWord, ServicePackage serPackage, double money){
         this.cardNumber = cardNumber;
@@ -52,43 +51,43 @@ public class MobileCard {
         this.realFlow = realFlow;
     }
     /**
-     * @return
+     * @return getCardNumber
      */
     public String getCardNumber() {
         return cardNumber;
     }
     /**
-     * @return
+     * @return setCardNumber
      */
     public void setCardNumber(String cardNumber) {
         this.cardNumber = cardNumber;
     }
     /**
-     * @return
+     * @return getUserName
      */
     public String getUserName() {
         return userName;
     }
     /**
-     * @return
+     * @return setUserName
      */
     public void setUserName(String userName) {
         this.userName = userName;
     }
     /**
-     * @return
+     * @return getPassWord
      */
     public String getPassWord() {
         return passWord;
     }
     /**
-     * @return
+     * @return setPassWord
      */
     public void setPassWord(String passWord) {
         this.passWord = passWord;
     }
     /**
-     * @return
+     * @return getSerPackage
      */
     public ServicePackage getSerPackage() {
         return serPackage;
@@ -103,61 +102,61 @@ public class MobileCard {
         return packages;
     }
     /**
-     * @return
+     * @return setSerPackage
      */
     public void setSerPackage(ServicePackage serPackage) {
         this.serPackage = serPackage;
     }
     /**
-     * @return
+     * @return getConsumAmout
      */
     public double getConsumAmout() {
         return consumAmout;
     }
     /**
-     * @return
+     * @return setConsumAmout
      */
     public void setConsumAmout(double consumAmout) {
         this.consumAmout = consumAmout;
     }
     /**
-     * @return
+     * @return getMoney
      */
     public double getMoney() {
         return money;
     }
     /**
-     * @return
+     * @return setMoney
      */
     public void setMoney(double money) {
         this.money = money;
     }
     /**
-     * @return
+     * @return getRealTakTime
      */
     public int getRealTakTime() {
         return realTakTime;
     }
     /**
-     * @return
+     * @return setRealTakTime
      */
     public void setRealTakTime(int realTakTime) {
         this.realTakTime = realTakTime;
     }
     /**
-     * @return
+     * @return getRealSMSCount
      */
     public int getRealSMSCount() {
         return realSMSCount;
     }
     /**
-     * @return
+     * @return setRealSMSCount
      */
     public void setRealSMSCount(int realSMSCount) {
         this.realSMSCount = realSMSCount;
     }
     /**
-     * @return
+     * @return getRealFlow
      */
     public int getRealFlow() {
         return realFlow;

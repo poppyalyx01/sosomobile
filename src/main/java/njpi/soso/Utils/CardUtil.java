@@ -38,15 +38,7 @@ public class CardUtil {
     Scene scene5 = new Scene("上网", 2 * 1024, "您使用流量2GB");
 
     public void intitScene() {
-
         fetchAll();
-
-        /*ConsumInfo info=new ConsumInfo("12345678910", "电话", 500);
-
-        List<ConsumInfo> list=new ArrayList<ConsumInfo>();
-        list.add(info);
-        consumInfos.put(info.getNumber(), list);*/
-
     }
 
     public void fetchAll(){
@@ -95,7 +87,6 @@ public class CardUtil {
     }
     public void init(){
         Iterator it = CardUtil.cards.entrySet().iterator();
-        String sql = "DELETE FROM card";
 
         try (Connection conn = db.connect();
              PreparedStatement pstmt = conn.prepareStatement("DELETE FROM card")) {
@@ -197,11 +188,22 @@ public class CardUtil {
     }
 
     public void showDescription() {
-        System.out.println("|     品牌套餐    | 话唠套餐 | 网虫套餐 |  超人套餐 |\n" +
-                "|通话时长（分钟）\t|   500\t |\t       |    200  |\n" +
-                "|上网流量（GB）\t|        |   03\t   |    01   |\n" +
-                "|短信条数（条）\t|   30\t |\t       |    50   |\n" +
-                "|资费（元）\t    |   58\t |   68\t   |    78   |");
+        System.out.println(
+                "\n**话唠套餐**\n"+
+                "通话时长(分钟): 500\n" +
+                "上网流量(GB): 0\n" +
+                "短信条数(条): 30\n" +
+                "资费(元): 58\n\n"+
+                "**网虫套餐**\n"+
+                "通话时长(分钟): 0\n" +
+                "上网流量(GB): 3\n" +
+                "短信条数(条): 0\n" +
+                "资费(元): 68\n\n"+
+                "**超人套餐**\n"+
+                "通话时长(分钟): 200\n" +
+                "上网流量(GB): 1\n" +
+                "短信条数(条): 50\n" +
+                "资费(元): 78\n");
     }
 
     /**
