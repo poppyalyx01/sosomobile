@@ -1,15 +1,33 @@
-Camel Java Router Project
+SOSOMOBILE
 =========================
+
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://github.com/poppyalyx01/sosomobile/releases/tag/1.0)
+
+> 班级：软件1801\
+> 学号：1830100115\
+> 姓名：XAISOMBAT PHOUTKHAM\
+> 中文姓名：李世福
+
+# 详情
+我是用 sqlite 数据库，数据库的文件存在 src/main/resources/database.db。\
+下载 jar 文件 [Download Jar](https://github.com/poppyalyx01/sosomobile/releases)
 
 To build this project use
 
     mvn install
 
 To run this project from within Maven use
+    
+    mvn camel:run
 
-    mvn exec:java
+# 已经存在帐户
 
-For more help see the Apache Camel documentation
+这些是已经存在的帐户
 
-    http://camel.apache.org/
+| 套餐 | 手机卡号 | 密码 |
+| ------ | ------ | ------ |
+|网虫套餐| 13674221467 | root |
+|超人套餐| 13975784444 | root |
+|话唠套餐| 13942542542 | root |
+
 
