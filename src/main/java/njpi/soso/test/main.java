@@ -1,4 +1,4 @@
-package test;
+package njpi.soso.test;
 
 import njpi.soso.Models.MobileCard;
 import njpi.soso.Models.ServicePackage;

@@ -4,10 +4,10 @@
 
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>org.example</groupId>
+  <groupId>njpi.soso</groupId>
   <artifactId>sosomobile</artifactId>
   <packaging>jar</packaging>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
 
   <name>A Camel Route</name>
 
@@ -91,10 +91,24 @@
         <version>3.4.0</version>
         <configuration>
           <logClasspath>true</logClasspath>
-          <mainClass>org.example.MyApplication</mainClass>
+          <mainClass>njpi.soso.test.main</mainClass>
         </configuration>
       </plugin>
-
+      <plugin>
+        <!-- Build an executable JAR -->
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jar-plugin</artifactId>
+        <version>3.1.0</version>
+        <configuration>
+          <archive>
+            <manifest>
+              <addClasspath>true</addClasspath>
+              <classpathPrefix>lib/</classpathPrefix>
+              <mainClass>njpi.soso.test.main</mainClass>
+            </manifest>
+          </archive>
+        </configuration>
+      </plugin>
     </plugins>
   </build>
 
