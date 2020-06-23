@@ -6,10 +6,10 @@ SOSOMOBILE
 > 班级：软件1801\
 > 学号：1830100115\
 > 姓名：XAISOMBAT PHOUTKHAM\
-> 中文姓名：李世福\
+> 中文姓名：李世福
 
 # 详情
-我是用 sqlite 数据库，数据库的文件存在 src/main/resources/database.db。
+我是用 sqlite 数据库，数据库的文件存在 src/main/resources/database.db。\
 下载 jar 文件 [Download Jar](https://github.com/poppyalyx01/sosomobile/releases)
 
 To build this project use
