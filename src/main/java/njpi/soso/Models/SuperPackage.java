@@ -1,5 +1,10 @@
 package njpi.soso.Models;
 
+/**
+ * @author poppy
+ * @mail poppyalyx1983@gmail.com
+ */
+
 import njpi.soso.Service.CallService;
 import njpi.soso.Service.NetService;
 import njpi.soso.Service.SendService;
@@ -17,51 +22,28 @@ public class SuperPackage extends ServicePackage implements CallService,SendServ
         this.flow = 1;
         this.price=78;
     }
-    /**
-     * @return getTalkTime
-     */
+
     public int getTalkTime() {
         return talkTime;
     }
-    /**
-     * @return setTalkTime
-     */
     public void setTalkTime(int talkTime) {
         this.talkTime = talkTime;
     }
-    /**
-     * @return getSmsCount
-     */
     public int getSmsCount() {
         return smsCount;
     }
-    /**
-     * @return setSmsCount
-     */
     public void setSmsCount(int smsCount) {
         this.smsCount = smsCount;
     }
-    /**
-     * @return getFlow
-     */
     public int getFlow() {
         return flow;
     }
-    /**
-     * @return setFlow
-     */
     public void setFlow(int flow) {
         this.flow = flow;
     }
-    /**
-     * @return getPrice
-     */
     public double getPrice() {
         return price;
     }
-    /**
-     * @return setPrice
-     */
     public void setPrice(double price) {
         this.price = price;
     }

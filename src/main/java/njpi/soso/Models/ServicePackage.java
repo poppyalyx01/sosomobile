@@ -1,5 +1,10 @@
 package njpi.soso.Models;
 
+/**
+ * @author poppy
+ * @mail poppyalyx1983@gmail.com
+ */
+
 public abstract class ServicePackage {
 
     private double price;

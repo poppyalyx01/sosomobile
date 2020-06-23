@@ -1,5 +1,10 @@
 package njpi.soso.Models;
 
+/**
+ * @author poppy
+ * @mail poppyalyx1983@gmail.com
+ */
+
 import njpi.soso.Service.NetService;
 
 public class NetPackage extends ServicePackage implements NetService {
@@ -14,15 +19,12 @@ public class NetPackage extends ServicePackage implements NetService {
     public int getFlow() {
         return flow;
     }
-
     public void setFlow(int flow) {
         this.flow = flow;
     }
-
     public double getPrice() {
         return price;
     }
-
     public void setPrice(double price) {
         this.price = price;
     }

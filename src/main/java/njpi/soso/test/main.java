@@ -1,5 +1,10 @@
 package njpi.soso.test;
 
+/**
+ * @author poppy
+ * @mail poppyalyx1983@gmail.com
+ */
+
 import njpi.soso.Models.MobileCard;
 import njpi.soso.Models.ServicePackage;
 import njpi.soso.Utils.CardUtil;

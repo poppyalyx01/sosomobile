@@ -1,5 +1,10 @@
 package njpi.soso.Utils;
 
+/**
+ * @author poppy
+ * @mail poppyalyx1983@gmail.com
+ */
+
 import java.sql.*;
 
 public class Database {

@@ -1,5 +1,10 @@
 package njpi.soso.Models;
 
+/**
+ * @author poppy
+ * @mail poppyalyx1983@gmail.com
+ */
+
 public class Scene {
     private String type;
     private int data;

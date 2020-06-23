@@ -1,5 +1,10 @@
 package njpi.soso.Models;
 
+/**
+ * @author poppy
+ * @mail poppyalyx1983@gmail.com
+ */
+
 import njpi.soso.Utils.Common;
 import njpi.soso.Service.CallService;
 import njpi.soso.Service.SendService;
@@ -15,39 +20,22 @@ public class TalkPackage extends ServicePackage implements CallService, SendServ
         this.smsCount = 30;
         this.price=58;
     }
-    /**
-     * @return getTalkTime
-     */
+
     public int getTalkTime() {
         return talkTime;
     }
-    /**
-     * @return setTalkTime
-     */
     public void setTalkTime(int talkTime) {
         this.talkTime = talkTime;
     }
-    /**
-     * @return getSmsCount
-     */
     public int getSmsCount() {
         return smsCount;
     }
-    /**
-     * @return setSmsCount
-     */
     public void setSmsCount(int smsCount) {
         this.smsCount = smsCount;
     }
-    /**
-     * @return getPrice
-     */
     public double getPrice() {
         return price;
     }
-    /**
-     * @return setPrice
-     */
     public void setPrice(double price) {
         this.price = price;
     }
