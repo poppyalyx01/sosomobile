@@ -19,6 +19,10 @@ To build this project use
 To run this project use
     
     mvn camel:run
+    
+Or you can use
+    
+    mvn exec:java
 
 # 存在的帐户
 
