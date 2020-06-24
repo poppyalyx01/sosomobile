@@ -94,8 +94,17 @@
           <mainClass>njpi.soso.test.main</mainClass>
         </configuration>
       </plugin>
+      <!-- Allows the example to be run via 'mvn exec:java' -->
       <plugin>
-        <!-- Build an executable JAR -->
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>exec-maven-plugin</artifactId>
+        <version>1.6.0</version>
+        <configuration>
+            <mainClass>njpi.soso.test.main</mainClass>
+        </configuration>
+      </plugin>
+      <!-- Build an executable JAR -->
+      <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-jar-plugin</artifactId>
         <version>3.1.0</version>
