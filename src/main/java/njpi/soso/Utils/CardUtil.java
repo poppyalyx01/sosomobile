@@ -50,7 +50,7 @@ public class CardUtil {
         try (Connection conn = db.connect();
              Statement stmt  = conn.createStatement();
              ResultSet rs    = stmt.executeQuery("SELECT * FROM card")){
-            // loop through the result set
+            // loop through the results set
             while (rs.next()) {
 
                 MobileCard card=new MobileCard(
