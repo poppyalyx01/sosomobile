@@ -3,11 +3,6 @@ SOSOMOBILE
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://github.com/poppyalyx01/sosomobile/releases/tag/1.0)
 
-> 班级：软件1801\
-> 学号：1830100115\
-> 姓名：XAISOMBAT PHOUTKHAM\
-> 中文姓名：李世福
-
 # 详情
 我是用 sqlite 数据库的，数据库的文件保存在 src/main/resources/database.db\
 可以下载 jar 文件 [Download Jar](https://github.com/poppyalyx01/sosomobile/releases)
